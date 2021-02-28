@@ -68,7 +68,7 @@ namespace Snake
 
 				if (snake.Eat(specialfood))
                 {
-					score.UpCurrentPointsx3();
+					score.DoublePoints();
 					score.ShowCurrentPoints();
 					sound3.PlayEatSpecialFood();
                 }

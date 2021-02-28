@@ -50,7 +50,7 @@ namespace Snake
             currentPoints -= 3;
         }
 
-        public void UpCurrentPointsx3()
+        public void DoublePoints()
         {
             currentPoints += 2;
         }
